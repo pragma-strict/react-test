@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import Counter from './components/counter';
-import Test from './baba.js';
+import './index.css';
+import App from './App';
 
-
-ReactDOM.render(
-   <Counter />, document.getElementById('root')
-);
 
 // Note that this second call do ReactDOM.render() overwrites the original call. It actually clears the content of the element that was passed. 
-// ReactDOM.render(
-//    <Test />, 
-//    document.getElementById('root')
-// );
+ReactDOM.render(
+   <App />, 
+   document.getElementById('root')
+);
