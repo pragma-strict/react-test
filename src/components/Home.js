@@ -13,13 +13,17 @@ const Home = () => {
    ]);
 
    return ( 
-      <div className="home">
+      <div className="container">
          { 
             posts.map( (post) => (
-               <div className="post-preview" key={post.id}>
-                  <h3>{post.title}</h3>
-                  <p>{post.body}</p>
-                  <p>Post id: {post.id}</p>
+               <div className="card my-4" key={post.id}>
+                  <div className="card-body">
+                     <h3 className="card-title">{post.title}</h3>
+                     <p className="card-text">{post.body}</p>
+                     <small>
+                        <p className="text-muted">Post id: {post.id}</p>
+                     </small>
+                  </div>
                </div>
              ) ) 
          }   

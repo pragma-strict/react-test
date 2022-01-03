@@ -4,11 +4,11 @@
 const Navbar = () => {
    return (
       <div className="container">
-         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Pragma Strict</a>
-            <div class="navbar-nav">
-               <a class="nav-item nav-link active" href="#">Home</a>
-               <a class="nav-item nav-link" href="#">Link</a>
+         <nav className="navbar navbar-expand-lg navbar-light">
+            <a className="navbar-brand" href="#">Pragma Strict</a>
+            <div className="navbar-nav">
+               <a className="nav-item nav-link active" href="#">About</a>
+               <a className="nav-item nav-link" href="#">Sketches</a>
             </div>
          </nav>
       </div>
