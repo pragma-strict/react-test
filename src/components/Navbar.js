@@ -3,13 +3,15 @@
 */
 const Navbar = () => {
    return (
-      <nav className="navbar">
-         <h1>Test blog</h1>
-         <div>
-            <a href="/">link one</a>
-            <a href="/page">link two</a>
-         </div>
-      </nav>
+      <div className="container">
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Pragma Strict</a>
+            <div class="navbar-nav">
+               <a class="nav-item nav-link active" href="#">Home</a>
+               <a class="nav-item nav-link" href="#">Link</a>
+            </div>
+         </nav>
+      </div>
    );
 }
  
